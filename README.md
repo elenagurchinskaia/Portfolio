@@ -4,6 +4,11 @@
 
 ## Technology Used
 
+[HTML](<!--https://www.w3schools.com/html/html5_semantic_elements.asp-->)
+[CSS](<!--https://developer.mozilla.org/en-US/docs/Web/CSS-->)
+[Git](<!--https://git-scm.com-->)
+(<!--https://www.w3schools.com/css/css_rwd_mediaqueries.asp-->)
+
 ## Deployment
 
 [Portfolio] (link)

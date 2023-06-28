@@ -1,92 +1,118 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <!-- Responsive web design  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./assets/reset.css"/> -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Elena Gurchinskaia</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#contacts">contacts</a></li>
+            <li><a href="#resume">resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <head>
-        <title>Portfolio</title>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href=".assets/style.css"/>
-    </head>
-    <body>
-        <header class="header">
-            <h1>Elena Gurchinskaia</h1>
-            <h2>Designer & Developer</h2>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About</a>
-                    </li>
-                    <li>
-                        <a href="work">Work</a>
-                    </li>
-                    <li>
-                        <a href="footer">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="Resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="hero"></section>
-        <section class="content">
-            <article id="about-me" class="=about-me">
-                <h3>About Me</h3>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the 
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </article>
-            <article id="work" class="work">
-                <h4>PROJECT 01</h4>
-                <p>
-                    React / CSS / JavaScript
-                </p>
-                <img src=".assets/images/Grey.jpg" alt="grey 01" class="float-center"/>
-            </article>
-            <article id="work" class="work">
-                <h5>PROJECT 02</h5>
-                <p>
-                    HTML / CSS
-                </p>
-                <img src=".assets/images/Grey.jpg" alt="grey 02" class="float-center"/>
-            </article>
-            <article id="work" class="work">
-                <h6>PROJECT 03</h6>
-                <p>
-                    NODE / loT
-                </p>
-                <img src=".assets/images/Grey.jpg" alt="grey 03" class="float-center"/>
-            </article>
-            <article id="work" class="work">
-                <h7>PROJECT 04</h7>
-                <p>
-                    MERN Stack
-                </p>
-                <img src=".assets/images/Grey.jpg" alt="grey 04" class="float-center"/>
-            </article>
-            <article id="work" class="work">
-                <h8>PROJECT 05</h8>
-                <p>
-                    HTML / CSS / JavaScript
-                </p>
-                <img src=".assets/images/Grey.jpg" alt="grey 05" class="float-center"/>
-            </article>
+    <main>
+      </section>
+      <aside id="about">
+        <div class="section-container">
+          
+          <img src="assets/images/avatar.jpg" alt="avatar" class="avatar" />
+          
+          <h2>ABOUT</h2>
+          <h2>Designer and Web Developer</h2>
+
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. 
+          </p>
+        </div>
+
+        <div id="contacts">
+          <h2>CONTACTS</h2>
+            <p>email: elena@gmail.com</p>
+          <p>phone: 512-777-7777</p>
+          
+          <ul class="social-media-links">
+            <li>
+              <a href="https://www.linkedin.com/in/elena-gurchinskaia-4969ab104/"target="_blank">Linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/elenagurchinskaia/" target="_blank">GitHub</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="resume">
+          <h2>RESUME</h2>
+          <ul class="social-media-links">
+            <li>
+              <a href="resume-elena.pdf" download>download</a>
+            </li>
+        </div>
+
+
+      </aside>
+
+
+      <div class="work">
+        <section class="projects">
+          <h2 id="work">WORK</h2>
+          <h4>PROJECT 01</h4>
+          
+          <img
+            src="/Users/elena/bootcamp/Portfolio/assets/images/project-01.jpg"
+            alt="blue box" class="blue-box" /> 
+          
         </section>
-       
-        <footer class="footer">
-            <h9>Contacts</h9>
-            <p>
-                737-333-9508 elenagurchinskaia@gmail.com 
-            </p>
-            <ul class="social-media-links">
-                <li><a href="https://www.linkedin.com/in/elena-gurchinskaia-4969ab104/"target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/elenagurchinskaia/" target="_blank">GitHub</a></li>
-            </ul>
-        </footer>
-
-    </body>
+        <section class="projects">
+          <h4>PROJECT 02</h4>
+          
+          <img
+            src="/Users/elena/bootcamp/Portfolio/assets/images/project-02.jpg"
+            alt="orange box" class="orange-box" />
+          
+        </section>
+        <section class="projects">
+          <h4>PROJECT 03</h4>
+          
+          <img
+            src="/Users/elena/bootcamp/Portfolio/assets/images/project-03.jpg"
+            alt="green box" class="green-box" />
+          
+        </section>
+        <section class="projects">
+          <h4>PROJECT 04</h4>
+          <img
+            src="/Users/elena/bootcamp/Portfolio/assets/images/project-04.jpg"
+            alt="yellow box" class="yellow-box" />
+          
+        </section>
+        <section class="projects">
+          <h4>PROJECT 05</h4>
+          
+          <img
+            src="/Users/elena/bootcamp/Portfolio/assets/images/project-05.jpg"
+            alt="pink box" class="pink-box" />
+          
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <h3>Made with ❤️️ using HTML and CSS.</h3>
+    </footer>
+  </body>
 </html>
