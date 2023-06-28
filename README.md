@@ -16,7 +16,7 @@ Please note, that the images in the Works section are currently only the placeho
 
 ## Deployment
 
-[Portfolio] (link)
+[Portfolio] (https://elenagurchinskaia.github.io/Portfolio/)
 
 ![alt text](/assets/images/portfolio.png)
 
