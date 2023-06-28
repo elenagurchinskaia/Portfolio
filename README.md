@@ -18,7 +18,7 @@ Please note, that the images in the Works section are currently only the placeho
 
 [Portfolio] (link)
 
-[alt text] (/Users/elena/bootcamp/Portfolio/assets/images/portfolio.png)
+![alt text](/assets/images/portfolio.png)
 
 ## Author
 
